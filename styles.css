@@ -30,7 +30,7 @@ section.bloc {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
-    background-color: white;
+    background-color: #f4f4f4; /* Match background color */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -108,31 +108,26 @@ section.bloc {
     text-align: center;
 }
 
+/* Make the question a button */
 .question {
-    font-size: 1.3em;
-}
-
-.overview {
-    font-size: 1.5em;
-}
-
-.study-button {
     display: inline-block;
-    margin-top: 10px;
+    font-size: 1.3em;
     padding: 10px 20px;
+    margin: 10px 0;
     background-color: black;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
 }
 
-.study-button:hover {
+.question:hover {
     background-color: grey;
     cursor: pointer;
 }
 
-.study-button:visited {
-    background-color: grey;
+.overview {
+    font-size: 1.5em;
 }
 
 /* Footer styles */
