@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - MyNameAndLastName</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+    <main>
+        <!-- Bloc 1 -->
+        <section class="bloc fade-in">
+            <div class="bloc-left">
+                <div class="image-box">
+                    <!-- Placeholder for image -->
+                </div>
+            </div>
+            <div class="bloc-right">
+                <p class="name">MyNameAndLastName</p>
+                <p class="title">Data Analyst</p>
+                <p class="description">
+                    I am MyName, a data analyst who thrives in capturing the essence of your data to deliver legible dashboards so you can make the best decisions for your company.
+                    My academic background in psychology gives me the tools to understand customer behaviours and the psychosocial factors that drive them.
+                    I advocate for closing the gender data gap to improve granularity in decision-making, and thus contribute to understanding the world with more precision.
+                    <br><br>
+                    Languages: English, French, Python and SQL
+                    <br><br>
+                    BERLIN - WORLDWIDE || PHONE NUMBER
+                </p>
+                <div class="buttons">
+                    <a href="https://github.com/yourgithubprofile" class="button">GitHub</a>
+                    <a href="https://linkedin.com/in/yourlinkedinprofile" class="button">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Bloc 2 Template -->
+        <section class="bloc fade-in">
+            <div class="bloc-left">
+                <p class="study-question">Assessing Student Performance</p>
+            </div>
+            <div class="bloc-right">
+                <p class="question"><strong>What are the driving factors behind a student's success?</strong></p>
+                <p class="overview">
+                    Though results vary from one student to another, understanding their individual conditions leads to a better understanding of the outcome. 
+                    And why certain groups are consistently one step ahead whereas others often seem to fall behind.
+                </p>
+                <a href="https://tableaulink.com" class="button study-button">View Study</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; MyNameAndLastName</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
