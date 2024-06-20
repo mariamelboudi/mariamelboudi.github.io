@@ -30,7 +30,7 @@ section.bloc {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 40px;
-    background-color: #f4f4f4; /* Match background color */
+    background-color: white; /* Match background color */
     border-radius: 8px;
     /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
     overflow: hidden;
@@ -60,7 +60,7 @@ section.bloc {
     width: 100%;
     max-width: 300px;
     height: auto;
-    background-color: #ccc;
+    background-color: white;
 }
 
 .bloc-right {
