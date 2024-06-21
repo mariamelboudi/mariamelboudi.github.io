@@ -26,6 +26,12 @@ main {
     max-width: 1200px;
 }
 
+.bloc {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Add space between .bloc-left and .bloc-right */
+}
+
 section.bloc {
     display: flex;
     flex-wrap: wrap;
