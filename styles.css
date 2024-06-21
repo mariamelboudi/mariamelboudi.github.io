@@ -70,7 +70,7 @@ section.bloc {
 
 .bloc-right .intro {
     flex: 2;
-    margin-left: 20px; /* Add margin to the left for extra space */
+    margin-left: 120px; /* Add margin to the left for extra space */
 }
 
 .bloc-right p {
@@ -86,7 +86,7 @@ section.bloc {
 }
 
 .description {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .buttons {
