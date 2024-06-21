@@ -56,11 +56,10 @@ section.bloc {
     justify-content: center;
 }
 
-.bloc-left .image-box {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    background-color: white;
+.bloc-left .image-box img {
+    max-width: 100%; /* Ensure image inside image-box does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space under inline images */
 }
 
 .bloc-right {
