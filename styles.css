@@ -59,12 +59,18 @@ section.bloc {
 .bloc-left .image-box img {
     max-width: 100%; /* Ensure image inside image-box does not exceed its container */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove extra space under inline images */
+    display: block;/* Remove extra space under inline images */
+    margin-left: 40px;
 }
 
 .bloc-right {
     flex: 2;
     text-align: left;
+}
+
+.bloc-right .intro {
+    flex: 2;
+    margin-left: 20px; /* Add margin to the left for extra space */
 }
 
 .bloc-right p {
