@@ -61,7 +61,7 @@ main {
     max-width: 100%; /* Ensure image inside image-box does not exceed its container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove extra space under inline images */
-    margin-left: 40px;
+    margin-left: 0; /* Adjusted to 0 to center the image */
 }
 
 .name, .case-overview {
@@ -70,8 +70,7 @@ main {
 }
 
 .name .intro {
-    flex: 2;
-    margin-left: 120px; /* Add margin to the left for extra space */
+    margin-left: 0; /* Adjusted to 0 to center the content */
 }
 
 .name p, .case-overview p {
@@ -119,8 +118,15 @@ main {
     .profile-picture, .name, .case, .case-overview {
         padding: 10px;
     }
-}
 
+    .profile-picture .image-box img {
+        margin-left: 0; /* Adjusted to 0 to center the image */
+    }
+
+    .name .intro {
+        margin-left: 0; /* Adjusted to 0 to center the content */
+    }
+}
 
 /* 
 body {
