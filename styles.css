@@ -55,13 +55,24 @@ main {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    position: relative; /* Ensure relative positioning for absolute children */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.profile-picture .image-box {
+    width: 100%; /* Ensure image-box takes full width of parent */
+    position: relative; /* Ensure relative positioning for absolute children */
 }
 
 .profile-picture .image-box img {
-    max-width: 100%; /* Ensure image inside image-box does not exceed its container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Ensure image fills the entire width of image-box */
+    height: auto; /* Allow image to adjust height proportionally */
     display: block; /* Remove extra space under inline images */
-    margin-left: 0; /* Adjusted to 0 to center the image */
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+}
+
+.profile:hover .image-box img {
+    transform: scale(1.1); /* Zoom effect on hover */
 }
 
 .name, .case-overview {
@@ -89,7 +100,7 @@ main {
     font-size: 1.2em;
 }
 
-.name .buttons {
+.name .buttons, .question {
     margin-top: 20px;
 }
 
@@ -127,6 +138,7 @@ main {
         margin-left: 0; /* Adjusted to 0 to center the content */
     }
 }
+
 
 /* 
 body {
