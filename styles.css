@@ -75,8 +75,11 @@ main {
     text-align: left;
 }
 
-.buttons{
+.buttons {
     margin-top: 20px;
+}
+
+.buttons a {
     display: inline-block;
     padding: 10px 20px;
     margin-right: 10px;
@@ -86,7 +89,7 @@ main {
     border-radius: 5px;
 }
 
-.buttons:hover {
+.buttons a:hover {
     background-color: #45a049;
     color: white;
     cursor: pointer;
@@ -94,15 +97,11 @@ main {
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    .profile, .case {
-        flex-direction: column;
+    .intro_banner {
+        flex-direction: column; /* Stack the image and presentation vertically */
     }
 
-    .profile-picture, .name, .case, .case-overview {
-        padding: 10px;
-    }
-
-    .profile-picture .image-box img {
+    .profile-picture .image_box img {
         margin-left: 0; /* Adjusted to 0 to center the image */
     }
 
