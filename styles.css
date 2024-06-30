@@ -1,4 +1,3 @@
-/* General styles */
 body {
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
@@ -26,27 +25,39 @@ main {
     max-width: 1200px;
 }
 
-.intro_banner .image_box {
-    width: 100%; /* Ensure image-box takes full width of parent */
-    position: relative; /* Ensure relative positioning for absolute children */
+/* Intro banner styles */
+.intro_banner {
+    display: flex; /* Make this a flex container */
+    align-items: stretch; /* Ensure children stretch to same height */
+    gap: 20px; /* Add some space between the items */
 }
 
-.intro_banner .image-box img {
-    width: 100%; /* Ensure image fills the entire width of image-box */
+.intro_banner .image_box {
+    flex: 1; /* Make image box take up equal space */
+    display: flex; /* Make image box a flex container */
+    align-items: stretch; /* Ensure image stretches to match height */
+}
+
+.intro_banner .image_box img {
+    width: 100%; /* Ensure image fills the entire width of image box */
     height: auto; /* Allow image to adjust height proportionally */
-    display: block; /* Remove extra space under inline images */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+.intro_banner .presentation {
+    flex: 2; /* Make presentation take up more space if needed */
 }
 
 .name {
-    font-size: 1.6;
+    font-size: 1.6em; /* Added 'em' to make it valid */
 }
 
 .title {
-    font-size: 2.8;
+    font-size: 2.8em; /* Added 'em' to make it valid */
 }
 
 .description {
-    font-size: 1.2;
+    font-size: 1.2em; /* Added 'em' to make it valid */
 }
 
 .study_title {
