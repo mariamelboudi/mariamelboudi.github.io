@@ -40,10 +40,10 @@ main {
 }
 
 .intro_banner .image_box img {
-    max-width: 100%;
+    max-width: 45%; /* Reduce image size by 10% (from 50% to 45%) */
     height: auto;
     margin-left: auto;
-    margin-right: 20px;
+    margin-right: calc(50% - 45% / 2); /* Center-align the right border */
 }
 
 .intro_banner .presentation {
