@@ -1,7 +1,5 @@
 /* General styles */
 body {
-    display: flex;
-    align-items: flex-start;
     font-family: 'Open Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
