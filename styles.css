@@ -20,7 +20,7 @@ header h1 {
 
 /* Main content styles */
 main {
-    padding: 20px;
+    /*padding: 20px;*/
     margin: 0 auto 20px;
     max-width: 1200px;
     text-align: center;
