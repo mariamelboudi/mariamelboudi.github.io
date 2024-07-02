@@ -47,7 +47,12 @@ main {
 
 .intro_banner .presentation {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /*height: 100%; /* or a specific height value if needed */
 }
+
 
 .name {
     font-size: 1.6em;
