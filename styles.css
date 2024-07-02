@@ -31,7 +31,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 20px;
+    column-gap: 20px;
 }
 
 .intro_banner .image_box {
