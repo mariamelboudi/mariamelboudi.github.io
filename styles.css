@@ -66,19 +66,32 @@ main {
     font-size: 1.2em;
 }
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left; /* Default text alignment for all elements inside */
+}
+
 .study_title {
     font-size: 3em;
     text-align: center;
+    width: 100%; /* Ensure it takes the full width to center text */
+    margin-bottom: 20px; /* Space between title and question */
 }
 
 .question {
     font-size: 2em;
-    text-align: left;
+    width: 100%; /* Ensure it takes the full width for alignment */
+}
+
+.question .link {
+    font-weight: bold;
 }
 
 .overview {
     font-size: 1.6em;
-    text-align: left;
+    margin-top: 10px; /* Space between question and overview */
 }
 
 .buttons {
