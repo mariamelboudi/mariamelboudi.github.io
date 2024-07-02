@@ -73,7 +73,7 @@ main {
 }
 
 .study_title {
-    font-size: 2.8em;
+    font-size: 2em;
     text-align: center;
     width: 100%; /* Ensure it takes the full width to center text */
     margin-bottom: 20px; /* Space between title and question */
