@@ -27,24 +27,26 @@ main {
 
 /* Intro banner styles */
 .intro_banner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     align-items: center;
-    column-gap: 20px;
+    justify-content: space-between;
 }
 
 .intro_banner .image_box {
+    width: 50%;
     display: flex;
     justify-content: flex-end;
 }
 
 .intro_banner .image_box img {
-   /* max-width: 80%; /* Reduce image size */
+    width: 100%;
     height: auto;
-    margin-left: 40px; /* Adjust margin as needed */
+    /* Remove margin adjustments */
+    margin: 0;
 }
 
 .intro_banner .presentation {
+    width: 50%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -54,17 +56,17 @@ main {
 /* Text styles */
 .name {
     font-size: 2.8em;
-    margin-bottom: 0px; /* Adjust the value as needed */
+    margin-bottom: 10px; /* Adjust the value as needed */
 }
 
 .title {
     font-size: 1.6em;
-    margin-bottom: 0px; /* Adjust the value as needed */
+    margin-bottom: 15px; /* Adjust the value as needed */
 }
 
 .description {
     font-size: 1.6em;
-    margin-bottom: 0px; /* Adjust the value as needed */
+    margin-bottom: 10px; /* Adjust the value as needed */
 }
 
 /* Portfolio section styles */
@@ -120,20 +122,17 @@ main {
 /* Responsive styles */
 @media (max-width: 768px) {
     .intro_banner {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         text-align: center;
     }
 
     .intro_banner .image_box {
+        width: 100%;
         justify-content: center;
     }
 
-    .intro_banner .image_box img {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     .intro_banner .presentation {
+        width: 100%;
         text-align: center;
     }
 }
