@@ -94,11 +94,12 @@ main {
 .study_title {
     font-size: 2em;
     text-align: center;
-    margin-bottom: 20px; /* Space between title and question */
+    margin-bottom: 0; /* Remove space between title and question */
 }
 
 .question {
     font-size: 1.2em;
+    text-align: center;
 }
 
 .question .link {
@@ -148,13 +149,15 @@ main {
         text-align: center;
     }
 
+    /* Remove flex-direction column for portfolio_row */
     .portfolio_row {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .study_title,
     .question {
-        width: 100%;
+        width: 50%;
         text-align: center;
     }
 }
