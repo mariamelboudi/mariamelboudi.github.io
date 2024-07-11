@@ -32,21 +32,24 @@ main {
     justify-content: space-between;
 }
 
-.intro_banner .image_box {
+.intro_banner .image_box,
+.intro_banner .presentation {
     width: 50%;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+.intro_banner .image_box {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro_banner .image_box img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
-    /* Remove margin adjustments */
-    margin: 0;
 }
 
 .intro_banner .presentation {
-    width: 50%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -126,13 +129,13 @@ main {
         text-align: center;
     }
 
-    .intro_banner .image_box {
+    .intro_banner .image_box,
+    .intro_banner .presentation {
         width: 100%;
-        justify-content: center;
+        text-align: center;
     }
 
     .intro_banner .presentation {
-        width: 100%;
         text-align: center;
     }
 }
