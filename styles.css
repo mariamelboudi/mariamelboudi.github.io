@@ -29,7 +29,6 @@ main {
 .intro_banner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .intro_banner .image_box,
@@ -80,16 +79,26 @@ main {
     text-align: left; /* Default text alignment for all elements inside */
 }
 
+.portfolio_row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.study_title,
+.question {
+    width: 50%;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
 .study_title {
     font-size: 2em;
     text-align: center;
-    width: 100%; /* Ensure it takes the full width to center text */
     margin-bottom: 20px; /* Space between title and question */
 }
 
 .question {
     font-size: 1.2em;
-    width: 100%; /* Ensure it takes the full width for alignment */
 }
 
 .question .link {
@@ -136,6 +145,16 @@ main {
     }
 
     .intro_banner .presentation {
+        text-align: center;
+    }
+
+    .portfolio_row {
+        flex-direction: column;
+    }
+
+    .study_title,
+    .question {
+        width: 100%;
         text-align: center;
     }
 }
