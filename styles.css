@@ -39,7 +39,7 @@ main {
 }
 
 .intro_banner .image_box img {
-    max-width: 80%; /* Reduce image size */
+   /* max-width: 80%; /* Reduce image size */
     height: auto;
     margin-left: 40px; /* Adjust margin as needed */
 }
