@@ -28,8 +28,8 @@ main {
 /* Intro banner styles */
 .intro_banner {
     display: flex;
-    align-items: flex-start; /* Align items at the top */
-    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between elements horizontally */
     margin-bottom: 40px;
     position: relative; /* Relative positioning for absolute child */
     padding-bottom: 80px; /* Padding to accommodate buttons at the bottom */
@@ -57,8 +57,7 @@ main {
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 60px;
+    justify-content: center; /* Center items vertically within .presentation */
 }
 
 /* Buttons container */
@@ -76,7 +75,7 @@ main {
 .buttons a {
     display: inline-block;
     padding: 10px 20px;
-    margin-right: 10px;
+    margin-right: 20px; /* Increased spacing between buttons */
     background-color: black;
     color: white;
     text-decoration: none;
@@ -95,10 +94,10 @@ main {
     margin-bottom: 0px; /* Adjust the value as needed */
 }
 
-/*.title {
+.title {
     font-size: 1.6em;
     margin-bottom: 0px; /* Adjust the value as needed */
-/*}*/
+}
 
 .description {
     font-size: 1.2em;
