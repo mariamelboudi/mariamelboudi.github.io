@@ -37,7 +37,7 @@ main {
 
 .intro_banner .image_box,
 .intro_banner .presentation {
-    width: 50%;
+    width: 100%;
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
 }
 
