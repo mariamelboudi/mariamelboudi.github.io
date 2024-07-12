@@ -30,6 +30,8 @@ main {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
+    flex-wrap: wrap; /* Allow wrapping to handle different screen sizes */
+    justify-content: center; /* Center all content horizontally */
 }
 
 .intro_banner .image_box,
@@ -55,6 +57,30 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+}
+
+/* Buttons container */
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure it takes the full width */
+    margin-top: 20px; /* Adjust the spacing as needed */
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buttons a:hover {
+    background-color: #45a049;
+    color: white;
+    cursor: pointer;
 }
 
 /* Text styles */
@@ -107,27 +133,6 @@ main {
     font-size: 1.2em;
     margin-top: 10px; /* Space between question and overview */
     text-align: left; /* Ensure text is left-aligned */
-}
-
-/* Button styles */
-.buttons {
-    margin-top: 20px;
-}
-
-.buttons a {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: black;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.buttons a:hover {
-    background-color: #45a049;
-    color: white;
-    cursor: pointer;
 }
 
 /* Responsive styles */
