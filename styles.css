@@ -49,7 +49,7 @@ main {
 }
 
 .intro_banner .image_box img {
-    max-width: 90%; /* Adjust this value to make the picture smaller */
+    max-width: 91%; /* Adjust this value to make the picture smaller */
     height: auto;
 }
 
@@ -75,7 +75,7 @@ main {
 .buttons a {
     display: inline-block;
     padding: 10px 20px;
-    margin-right: 20px;
+    margin-right: 10px;
     background-color: black;
     color: white;
     text-decoration: none;
@@ -113,34 +113,31 @@ main {
 }
 
 .study_title {
-    width: 40%; /* 40% width */
+    width: calc(40% - 50px); /* Adjusted width to account for the margin */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
     font-size: 2em;
     text-align: center;
+    margin-right: 50px; /* Add margin to create a gap */
     margin-bottom: 0; /* Remove space between title and question */
 }
 
-.question-link {
-    width: calc(60% - 50); /* 60% width */
-    text-decoration: none; /* Remove underlining */
-    display: flex; /* Display flex to match flexbox properties */
-    margin-left: 50px;
-    align-items: flex-start; /* Align items at the start */
-    color: inherit; /* Inherit text color */
-}
-
 .question {
-    width: 100%; /* Ensure full width for the question container */
-    box-sizing: border-box;
+    width: 60%; /* Adjusted width */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start of the container */
+    padding-left: 20px; /* Adjust padding as needed */
 }
 
-.question strong {
-    font-size: 1.2em;
+.question .link {
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 .overview {
-    font-size: 1em;
+    font-size: 0.9em;
     margin-top: 10px; /* Space between question and overview */
     text-align: left; /* Ensure text is left-aligned */
 }
@@ -167,16 +164,17 @@ main {
     }
 
     .study_title,
-    .question-link {
+    .question {
         width: 100%;
         text-align: center;
     }
 
-    .question-link {
+    .question {
         align-items: center;
+        padding-left: 0;
     }
 
-    .question strong,
+    .question .link,
     .overview {
         text-align: center;
     }
