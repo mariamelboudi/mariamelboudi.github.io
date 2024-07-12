@@ -84,7 +84,7 @@ main {
 
 .buttons a:hover {
     background-color: #FFE268;
-    color: white;
+    color: black;
     cursor: pointer;
 }
 
