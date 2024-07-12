@@ -80,11 +80,11 @@ main {
 }
 
 .study_title {
-    width: 40%; /* Adjusted width */
+    width: calc(40% - 50px); /* Adjusted width to account for the margin */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
     font-size: 2em;
     text-align: center;
-    margin-right: 100px;
+    margin-right: 50px; /* Add margin to create a gap */
     margin-bottom: 0; /* Remove space between title and question */
 }
 
