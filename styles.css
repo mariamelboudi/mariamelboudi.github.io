@@ -133,6 +133,7 @@ main {
 }
 
 .question .link {
+    color: #122369;
     font-weight: bold;
     font-size: 1.2em;
 }
