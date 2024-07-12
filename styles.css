@@ -75,7 +75,7 @@ main {
 .buttons a {
     display: inline-block;
     padding: 10px 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     background-color: black;
     color: white;
     text-decoration: none;
@@ -121,17 +121,22 @@ main {
     margin-bottom: 0; /* Remove space between title and question */
 }
 
-.question {
+.question-link {
     width: 60%; /* Adjusted width */
+    text-decoration: none; /* Remove underlining */
+}
+
+.question {
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
     font-size: 1.2em;
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Align items to the start of the container */
     padding-left: 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Change cursor to pointer */
 }
 
-.question .link {
+.question strong {
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -164,7 +169,7 @@ main {
     }
 
     .study_title,
-    .question {
+    .question-link {
         width: 100%;
         text-align: center;
     }
@@ -174,7 +179,7 @@ main {
         padding-left: 0;
     }
 
-    .question .link,
+    .question strong,
     .overview {
         text-align: center;
     }
