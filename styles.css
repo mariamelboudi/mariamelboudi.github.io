@@ -49,7 +49,7 @@ main {
 }
 
 .intro_banner .image_box img {
-    max-width: 70%; /* Adjust this value to make the picture smaller */
+    max-width: 85%; /* Adjust this value to make the picture smaller */
     height: auto;
 }
 
