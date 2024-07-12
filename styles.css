@@ -41,6 +41,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 60px;
 }
 
 .intro_banner .image_box img {
