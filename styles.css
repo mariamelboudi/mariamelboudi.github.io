@@ -29,6 +29,7 @@ main {
 .intro_banner {
     display: flex;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .intro_banner .image_box,
