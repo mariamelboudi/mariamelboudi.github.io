@@ -90,7 +90,7 @@ main {
 
 /* Text styles */
 .name {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 0px; /* Adjust the value as needed */
 }
 
@@ -100,7 +100,7 @@ main {
 /*}*/
 
 .description {
-    font-size: 1.2em;
+    font-size: 1em;
     margin-bottom: 10px; /* Adjust the value as needed */
 }
 
