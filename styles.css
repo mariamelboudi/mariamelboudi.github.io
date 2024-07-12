@@ -37,7 +37,7 @@ main {
 
 .intro_banner .image_box,
 .intro_banner .presentation {
-    width: 100%;
+    width: 50%;
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
 }
 
@@ -84,7 +84,7 @@ main {
 
 .buttons a:hover {
     background-color: #FFE268;
-    color: black;
+    color: white;
     cursor: pointer;
 }
 
@@ -113,32 +113,29 @@ main {
 }
 
 .study_title {
-    width: calc(40% - 50px); /* Adjusted width to account for the margin */
+    width: 40%; /* 40% width */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
     font-size: 2em;
     text-align: center;
-    margin-right: 50px; /* Add margin to create a gap */
     margin-bottom: 0; /* Remove space between title and question */
 }
 
 .question-link {
-    width: 60%; /* Adjusted width */
+    width: 60%; /* 60% width */
     text-decoration: none; /* Remove underlining */
+    display: flex; /* Display flex to match flexbox properties */
+    align-items: flex-start; /* Align items at the start */
+    color: inherit; /* Inherit text color */
 }
 
 .question {
-    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
-    font-size: 1.2em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the start of the container */
-    padding-left: 20px; /* Adjust padding as needed */
-    cursor: pointer; /* Change cursor to pointer */
+    width: 100%; /* Ensure full width for the question container */
+    box-sizing: border-box;
 }
 
 .question strong {
-    font-weight: bold;
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 .overview {
@@ -174,9 +171,8 @@ main {
         text-align: center;
     }
 
-    .question {
+    .question-link {
         align-items: center;
-        padding-left: 0;
     }
 
     .question strong,
