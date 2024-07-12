@@ -100,7 +100,7 @@ main {
 /*}*/
 
 .description {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-bottom: 10px; /* Adjust the value as needed */
 }
 
@@ -113,6 +113,7 @@ main {
 }
 
 .study_title {
+    color: #737373;
     width: calc(40% - 50px); /* Adjusted width to account for the margin */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
     font-size: 2em;
@@ -132,7 +133,6 @@ main {
 }
 
 .question .link {
-    color: #737373;
     font-weight: bold;
     font-size: 1.2em;
 }
