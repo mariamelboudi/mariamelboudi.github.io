@@ -69,7 +69,7 @@ main {
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Center alignment correction */
     width: 100%; /* Full width to ensure center alignment */
-    margin: 10px;
+    margin: 10px 25px;
 }
 
 .buttons a {
