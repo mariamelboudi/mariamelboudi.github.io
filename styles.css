@@ -113,18 +113,18 @@ main {
 }
 
 .study_title {
-    width: calc(40%-50); /* 40% width */
+    width: 40%; /* 40% width */
     box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
     font-size: 2em;
     text-align: center;
-    margin-right: 50px;
     margin-bottom: 0; /* Remove space between title and question */
 }
 
 .question-link {
-    width: 60%; /* 60% width */
+    width: calc(60% - 50); /* 60% width */
     text-decoration: none; /* Remove underlining */
     display: flex; /* Display flex to match flexbox properties */
+    margin-left: 50px;
     align-items: flex-start; /* Align items at the start */
     color: inherit; /* Inherit text color */
 }
