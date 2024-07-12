@@ -83,7 +83,7 @@ main {
 }
 
 .buttons a:hover {
-    background-color: #45a049;
+    background-color: #FFE268;
     color: white;
     cursor: pointer;
 }
@@ -133,10 +133,11 @@ main {
 
 .question .link {
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 .overview {
-    font-size: 1.2em;
+    font-size: 0.9em;
     margin-top: 10px; /* Space between question and overview */
     text-align: left; /* Ensure text is left-aligned */
 }
